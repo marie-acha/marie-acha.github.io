@@ -1,0 +1,137 @@
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    padding: 0 35px;
+    margin: 0;
+}
+
+#title{
+    padding-bottom: 25px;
+}
+
+h1,h2{
+    text-align: center;
+    color: #e04747;
+}
+
+#to-do-header-list{
+    color: #e04747;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#by-author{
+    display:flex;
+    justify-content: center;
+    margin-right: 8px;
+}
+
+#authors-pic{
+    position: relative;
+    border-radius: 50%;
+    width: 32px;
+    min-width: 32px;
+    height: 32px;
+    min-height: 32px;
+    overflow: hidden;
+}
+
+#author-name{
+    display: flex;
+    align-self:center;
+    margin-top: 4px;
+    margin-left: 8px;
+    color: #666
+}
+
+#author{
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    color: gray;
+}
+
+.body-text {
+    margin-right: 150px;
+    margin-left: 350px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+#manila-map{
+    display: flex;
+    justify-content: center;
+}
+
+div#manila-contents > ol > div > img {
+    width: 100%;
+    height: 500px;
+}
+
+div#manila-contents > ol > div > li {
+    padding: 10px;
+    margin: 10px;
+}
+
+.scroll-container {
+    position: absolute;
+    top: 0;
+    right:0;
+    height: 100%;
+  }
+  
+  .scroll-container:before {
+    content: '';
+    display: block;
+    height: 100vh;
+    pointer-events: none;
+  }
+  
+  .scroll-container a {
+    position: sticky;
+    top: 88vh;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  footer{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    font-weight: bold;
+}
+
+#copyright{
+    float: left;
+    padding: 15px;
+}
+
+#top{
+    float: right
+}
+
+footer > ul > li a{
+    display: block;
+    color: #5F9EA0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+footer > ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    font-weight: bold;
+}

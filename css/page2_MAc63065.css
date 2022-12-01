@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+  }
+ 
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 45%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+.column > img{
+    width: 450px;
+    border-radius: 5px;
+}
+
+.author-pic{
+    display: flex;
+    justify-content: center;
+}
+
+#hello{
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-family: Verdana, sans-serif;
+    font-size: xx-large
+}
+
+#medium{
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-family: monospace;
+    font-size: xx-large
+}
+
+p{
+    font-size: x-large;
+    font-family: Georgia, serif;
+    text-align: justify;
+}
+
+.linkedin-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.linkedin-icon > a {
+    margin: 5px;
+}
+
+.linkedin-icon > a > img{
+    width: 25px;
+}

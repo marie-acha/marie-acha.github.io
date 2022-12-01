@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Marie Acha">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/navigation_MAc63065.css" rel="stylesheet">
+        <link href="css/style_MAc63065.css" rel="stylesheet">
+        <link href="css/contact-us_MAc63065.css" rel="stylesheet">
+
+        <script src="script/contact-us-validation.js"></script>
+        <header>
+            <div id="navigation-bar">          
+                <nav>
+                    <ul id="navbar">
+                        <li id="home"><a href="index.html">Home</a></li>
+                        <li id="about"><a href="page2_MAc63065.html">About the Author</a></li>
+                        <li id="contact"><a href="page3_MAc63065.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="header-image-menu">
+                <img src="images/manila_cathedral.jpg">
+            </div>
+        </header>
+    </head>
+    <body>
+        <div id="title">
+            <h1 id = "image-text">
+                Contact Us
+            </h1>
+            <p>Swing by for a cup of coffee, or leave us a message:</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <img src="images/douglas-college.jpg" alt="Douglas College">
+                </div>
+                <div class="column">
+                    <form name="myform" action='' method="get">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="firstName" required>
+
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName" required>
+
+                        <select id="country" name="country" required>
+                            <option value="">Please select a Country</option> 
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                            <option value="philippines">Philippines</option>
+                        </select>
+
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." required></textarea>
+                        
+                        <input type="submit" name="submit_input" value="Submit" 
+                            onclick="return validateInput(this.form)">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <ul>
+            <li id="copyright">Copyright &copy; Marie Acha</li>
+            <li id="top"><a href="#navigation-bar">Go to Top</a></li>
+        </ul>
+        
+    </footer>
+</html>

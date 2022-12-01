@@ -1,0 +1,37 @@
+.sidebar {
+    height: 700px;
+    width: 270px;                     
+    position: sticky;
+    top: 0px;
+    float: left;
+    padding-top: 10px;
+    background-color: aliceblue;
+}
+
+.sidebar div {
+    padding: 0;
+    font-size: 15px;
+    display: block;
+}
+
+.sidebar ul {
+    margin-bottom: 10px;
+}
+
+.sidebar ol > li{
+    margin-bottom: 5px;
+}
+
+.sidebar ol > li > ul > li{
+    margin: 8px;
+}
+
+.sidebar ul > li{
+    margin-bottom: 5px;
+}
+
+h4{
+    color: gray;
+    font-weight: bold;
+    text-align: center;
+}

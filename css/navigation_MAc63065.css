@@ -1,0 +1,37 @@
+
+#header-image-menu img{
+	width: 100%;
+	margin: none;
+	padding: none;
+}
+
+ul#navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    top: 0;
+    font-weight: bold;
+}
+  
+#about,#contact{
+    float: right;
+}
+  
+ul#navbar > li a{
+    display: block;
+    color: #5F9EA0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+ul#navbar > li a:hover {
+    background-color: #87CEFA;
+    color: white;
+}
+
+#home{
+    float: left;
+}
